@@ -25,7 +25,9 @@ color: #4D4D4D;
 font-size: 36px;
 font-family: Inter;
 font-weight: 600;
-line-height: 44px   
+line-height: 44px;
+margin-bottom: 0; 
+
 }
 .title p{
 color: #717171;
@@ -45,6 +47,9 @@ text-align: center;
 }
 
 /* common css end */
+
+
+
 .navbar{
 background-color: #f5f7fa !important;
 padding: 22px 0;
@@ -79,11 +84,14 @@ column-gap: 50px;
     padding: 10px 20px;
     color: #4CAF4F;
     border-radius: 6px;
+    transition: 0.5s;
+    
 }
 .button .login a{
     padding: 10px 20px;
     color: #4CAF4F;
     border-radius: 6px;
+    
     
     
     
@@ -104,27 +112,27 @@ column-gap: 50px;
 }
 
 
-.row {
+.banner .row {
     align-items: center;
     padding: 96px 0;
     
 }
 
-.row h1{
+.banner .row h1{
 color: #4D4D4D;
 font-size: 64px;
 font-family: Inter;
 font-weight: 600;
 line-height: 76px;
 }
-.row h1 span{
+.banner .row h1 span{
 color: #4CAF4F;;
 font-size: 64px;
 font-family: Inter;
 font-weight: 600;
 line-height: 76px;
 }
-.row p{
+.banner .row p{
 color: #717171;
 font-size: 16px;
 font-family: Inter;
@@ -133,7 +141,7 @@ line-height: 24px;
 padding-top: 16px;
 padding-bottom: 32px;
 }
-.row img{
+.banner .row img{
 padding-left: 104px;
 }
 /* banner end */
@@ -145,12 +153,108 @@ padding-left: 104px;
 }
 
 
-.our-client .title .box{
-    column-gap: 50px;
+.our-client .box{
+    /* column-gap: 50px; */
     justify-content: space-between;
+    padding: 25px 0;
 }
 
 
-
-
 /* our client end */
+
+/* communite start  */
+
+
+.community{
+   padding-top: 42px;
+   padding-bottom: 48px;
+
+    
+}
+.community .title h2{
+    width: 542px;
+    margin: 0 auto;
+
+    
+}
+.community .card{
+    width: 100% !important;
+    padding: 24px 48px;
+}
+.community .card img{
+    width: 65px;
+    margin: 0 auto;
+}
+.community .card-body{
+    text-align: center;
+    padding: 0 !important;
+    
+
+    
+}
+.community .card-body .card-title{
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 36px;
+    width: 232px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+    
+}
+.community .card-body .card-text{
+    color: #717171;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    width: 251px;
+    margin: 0 auto;
+    
+}
+/* communite end  */
+/* unlock start  */
+
+
+
+
+.unlock{
+    padding: 40px 0;
+    
+}
+
+
+.unlock .row{
+    align-items: center;
+}
+
+.unlock .title{
+    text-align: left;
+
+}
+.unlock .title h2{
+    width: 500px;
+}
+.unlock .title p{
+    width: 600px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+/* unlock end  */
+/* Achievements start  */
+
+.achievements{
+    background-color: #F5F7FA;
+    padding: 84px 0;
+}
+.achievements .title h2{
+    width: 380px;
+}
+.achievements .title span{
+    color: #4CAF4F;
+}
+/* Achievements end  */
+
+
