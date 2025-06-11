@@ -1,0 +1,156 @@
+/* common css start */
+
+.common-button a{
+color: white;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+padding: 14px 32px;
+text-decoration: none;
+background-color: #4CAF4F;
+border-radius: 4px;
+border: 1px solid transparent;
+transition: 0.5s;
+
+}
+.common-button a:hover{
+color: #18191F;
+border: 1px solid #4CAF4F;
+background-color: #ffffff;
+}
+
+.title h2{
+color: #4D4D4D;
+font-size: 36px;
+font-family: Inter;
+font-weight: 600;
+line-height: 44px   
+}
+.title p{
+color: #717171;
+font-size: 16px;
+font-family: Inter;
+font-weight: 400;
+line-height: 24px;
+padding-top: 8px;
+padding-bottom: 16px;
+
+}
+.title{
+text-align: center;
+}
+.box{
+    display: flex;
+}
+
+/* common css end */
+.navbar{
+background-color: #f5f7fa !important;
+padding: 22px 0;
+}
+.navbar-nav{
+color: #18191F;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+column-gap: 50px;
+
+}
+
+.nav-link {
+    padding-right: 0 !important; 
+   padding-left: 0 !important; 
+}
+.button{
+    display: flex;
+    column-gap: 14px;
+    
+    
+}
+.button a{
+    border: 1px solid #dcdfe4;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 20px;
+    color: #4CAF4F;
+    border-radius: 6px;
+}
+.button .login a{
+    padding: 10px 20px;
+    color: #4CAF4F;
+    border-radius: 6px;
+    
+    
+    
+}
+.button a:hover{
+    color: #ffffff;
+    background-color: #4CAF4F;
+    
+    
+}
+/* navber end */
+
+/* banner start */
+
+
+.banner{
+    background-color: #f5f7fa ;
+}
+
+
+.row {
+    align-items: center;
+    padding: 96px 0;
+    
+}
+
+.row h1{
+color: #4D4D4D;
+font-size: 64px;
+font-family: Inter;
+font-weight: 600;
+line-height: 76px;
+}
+.row h1 span{
+color: #4CAF4F;;
+font-size: 64px;
+font-family: Inter;
+font-weight: 600;
+line-height: 76px;
+}
+.row p{
+color: #717171;
+font-size: 16px;
+font-family: Inter;
+font-weight: 400;
+line-height: 24px;
+padding-top: 16px;
+padding-bottom: 32px;
+}
+.row img{
+padding-left: 104px;
+}
+/* banner end */
+/* our client start */
+
+
+.our-client{
+    padding: 40px 0;
+}
+
+
+.our-client .title .box{
+    column-gap: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+/* our client end */
