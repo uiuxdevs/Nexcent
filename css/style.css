@@ -245,16 +245,62 @@ padding-left: 104px;
 /* unlock end  */
 /* Achievements start  */
 
+
+.achievements{
+    background-color: #F5F7FA;
+    
+}
+.achievements .main{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    
+}
 .achievements{
     background-color: #F5F7FA;
     padding: 84px 0;
 }
 .achievements .title h2{
-    width: 380px;
+    width: 407px;
+}
+.achievements .title p{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .achievements .title span{
     color: #4CAF4F;
 }
+.achievements .member{
+    display: flex;
+    column-gap: 16px;
+    /* align-items: center; */
+    width: 258px;
+    
+}
+.achievements .member h3{
+    color: #4D4D4D;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.achievements .member p{
+    color: #717171;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    
+    
+}
+.achievements .row{
+    align-items: center;
+}
+
+
 /* Achievements end  */
 
 
