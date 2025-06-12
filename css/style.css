@@ -235,7 +235,7 @@ padding-left: 104px;
 
 }
 .unlock .title h2{
-    width: 500px;
+    width: 600px;
 }
 .unlock .title p{
     width: 600px;
@@ -302,5 +302,168 @@ padding-left: 104px;
 
 
 /* Achievements end  */
+/* coustomers start  */
+.coustomers{
+    padding: 32px 0;
+    background-color: #F5F7FA;
+    margin: 48px 0;
+}
+.coustomers p{
+    color: #717171;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0;
+    width: 748px;
+    
+}
+.coustomers h4{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    
+}
+.coustomers span{
+    color: #89939E;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    
+    
+}
+.coustomers .brand-logo{
+    display: flex;
+    padding-top: 32px;
+    column-gap: 40px;
+    
+}
+.coustomers .brand-logo .janina{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.coustomers .brand-logo .janina h3{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 0;
+    padding: 8px 8px;
+    
+}
+
+
+/* coustomers end  */
+
+/* community update start  */
+
+.community-update{
+    margin: 48px 0;
+}
+.community-update .ula{
+    display: flex;
+    column-gap: 60px;
+}
+
+.community-update .image{
+    position: relative;
+    
+
+}
+
+.community-update .title p{
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    color: black;
+    width: 628px;
+}
+.community-update .text{
+    background-color: white;
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 16px 16px;
+    position: absolute;
+    bottom: -61px;
+    left: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* row-gap: 16px; */
+}
+.community-update .text h4{
+    width: 285px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    color: #717171;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.community-update .text span{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.community-update .text .ki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+}
+
+/* community update end  */
+/* foter age start  */
+
+.footer-age{
+    padding: 32px 0;
+    margin-top: 176px;
+    background-color: #F5F7FA;
+    
+}
+.footer-age h1{
+    color: #263238;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: center;
+    width: 888px;
+    margin: 0 auto;
+
+}
+.footer-age .nt a{
+    display: inline-block;
+    margin: 32px 0;
+    
+
+    
+}
+.footer-age .nt{
+    text-align: center;
+    
+}
+
+
+
+
+
+/* foter age end  */
+
 
 
